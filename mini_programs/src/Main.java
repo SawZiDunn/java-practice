@@ -1,16 +1,14 @@
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.util.Objects;
 import java.util.Random;
 import java.util.Scanner;
-import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
 
-        gpa();
-        digitSum();
+//        gpa();
+//        digitSum();
         powered();
-        random();
+//        random();
 
     }
 
@@ -62,7 +60,7 @@ public class Main {
         System.out.print("Enter a series of number to sum :");
 
         String num = scan.next();
-        for (int i=0; i<num.length();i++){
+        for (int i=0; i < num.length(); i++){
             total += Character.getNumericValue(num.charAt(i));
         }
 
@@ -71,6 +69,7 @@ public class Main {
 
     public static void powered(){
         Scanner scan = new Scanner(System.in);
+
         System.out.print("Enter a number :");
         int base = scan.nextInt();
         System.out.print("Powered : ");

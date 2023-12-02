@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class my_investment{
+public class My_investment{
     public static void main(String[] args){
         double balance = 250000;
         double total_balance = 0;

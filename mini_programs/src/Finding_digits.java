@@ -1,4 +1,4 @@
-public class finding_digits {
+public class Finding_digits {
     public static void main(String[] args) {
         last_digit();
         last_4_digits();

@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class file_handling {
+public class File_handling {
     public static void main(String[] args) throws FileNotFoundException {
         weather_array();
         reverse_order();

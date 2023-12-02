@@ -1,7 +1,6 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class blah {
+public class Scanner_usage{
     public static void main(String[] args) {
 
         isVowel();
