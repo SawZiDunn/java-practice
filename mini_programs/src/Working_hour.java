@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Working_hour_calculator {
+public class Working_hour {
     public static void main(String[] args) {
         working_hour();
     }

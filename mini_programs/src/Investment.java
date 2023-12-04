@@ -1,18 +1,27 @@
+import java.math.BigDecimal;
 import java.util.Scanner;
 
-public class My_investment{
+public class Investment {
     public static void main(String[] args){
-        double balance = 250000;
-        double total_balance = 0;
-
         Scanner scan = new Scanner(System.in);
+
+        double balance;
+        double total_balance = 0;
+        System.out.println("What's your current balance?");
+        balance = scan.nextDouble();
+
         System.out.print("How many years will you wait? :");
         int year = scan.nextInt();
 
-        for (int i =0; i<year; i++){
+        for (int i = 0; i < year; i++){
             total_balance = fix_deposit(balance) + mutual_fund(balance) + crypto_currency(balance);
             balance = total_balance;
         }
+
+//        rounding the number to two decimal places
+        BigDecimal bd = new BigDecimal(total_balance);
+        bd = bd.setScale(2, BigDecimal.ROUND_UP);
+        total_balance = bd.doubleValue();
 
         System.out.println("Total Account Balance after " + year + " years is " + total_balance + " Dollars.");
 
