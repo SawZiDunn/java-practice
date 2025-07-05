@@ -69,7 +69,7 @@ public class log_in extends JFrame {
 				String user = txt_user.getText();
 				String password = txt_password.getText();
 				
-				if (user.equals("ZiDunn") && password.equals("123")) {
+				if (user.equals("saw") && password.equals("saw")) {
 					JOptionPane.showMessageDialog(null, "Log In Confirmed...");
 					bmi bmi = new bmi();
 					bmi.setVisible(true);

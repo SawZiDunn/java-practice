@@ -17,11 +17,11 @@ public class GPA {
             System.out.print("Enter a major code :");
             String major_code = scan.next();
 
-            System.out.print("Enter the nuber of credits for this major :");
+            System.out.print("Enter the number of credits for this major :");
             int credit = scan.nextInt();
             total_credit += credit;
 
-            System.out.print("Enter GPA Grade :(A or B+ or B...");
+            System.out.print("Enter GPA Grade :(A, B+, B, ...");
             String grade = scan.next();
 
             if (Objects.equals(grade, "A")){
